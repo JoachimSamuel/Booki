@@ -1,8 +1,11 @@
+:root{
+--mainColor:#0065FC ;
+--secColor: #F2F2F2;
+}
 /*GENERAL*/
 @font-face {                       
     font-family: 'Raleway';
     src: local("Raleway");
-  
 }
 body {
   max-width: 1400px;
@@ -74,8 +77,8 @@ li{
 
 .menu a:hover { 
     
-    border-top: 3px #0065FC solid ;
-    color: #0065FC;
+    border-top: 3px var(--mainColor) solid ;
+    color: var(--mainColor);
     
 }
 
@@ -92,7 +95,7 @@ li{
 
 .zonerecherche{
     width: 15em;
-    border: 2px #F2F2F2 solid ;
+    border: 2px var(--secColor) solid ;
     border-right: none;
     font-weight: bold;
 }
@@ -103,15 +106,15 @@ li{
     justify-content: center;
     align-items: center;
     Width: 3em;
-    background-color: #F2F2F2 ;
+    background-color: var(--secColor) ;
     color: black;
     border-radius: 15px 0px 0px 15px;
 }
 
 .buttonrecherche {
-    background-color:#0065FC;
+    background-color: var(--mainColor);
     border: none;
-    color: #F2F2F2;
+    color: var(--secColor);
     border-radius: 0px 15px 15px 0px;
     width: 132px;   
     font-weight: bold;
@@ -145,7 +148,7 @@ li{
     display: flex;  
     gap: 0.5em;
     align-items: center;
-    border: 3px #F2F2F2 solid;
+    border: 3px var(--secColor) solid;
     max-height: 3em;
     padding-left: 1em;
     padding-right: 1em;
@@ -168,8 +171,8 @@ li{
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
     width: 24px;
     height: 24px;
-    color: #0065FC;
-    border: 1px #F2F2F2 solid;
+    color: var(--mainColor);
+    border: 1px var(--secColor) solid;
 }
 
 .directionrowi{
@@ -192,7 +195,7 @@ li{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: #F2F2F2;
+    background-color: var(--secColor);
     padding: 2em;
     border-radius: 2em;
     width: 70%;
@@ -204,7 +207,7 @@ li{
 }
 
 .greystar{
-    color:#F2F2F2;
+    color: var(--secColor);
 }
 
 .cardhébergements{
@@ -257,7 +260,7 @@ li{
  
 /*Les plus Populaires*/
  .backgroundgrey2{
-    background-color: #F2F2F2;
+    background-color: var(--secColor);
     border-radius: 20px;
     padding: 30px;
 }
@@ -352,7 +355,7 @@ li{
 
 /*Footer*/
 .sectionLightGreyBackground {
-    background-color:  #F2F2F2;
+    background-color:  var(--secColor);
     padding-left: 5em;
     padding-bottom: 3em;
 }
@@ -449,13 +452,13 @@ body{
     flex-direction: column;
 }
 .menu a{
-    border-bottom: #F2F2F2 solid ;
+    border-bottom: var(--secColor) solid ;
     padding-top:10px;
     padding-right: 60px;
 }
 .menu a:hover{ 
     
-    border-bottom: 3px #0065FC solid ;
+    border-bottom: 3px var(--mainColor) solid ;
     border-top: none;
 }
 .buttonrecherche {
