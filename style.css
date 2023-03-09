@@ -32,7 +32,7 @@ li{
     font-family: 'Raleway';
 }
 .colorblue {
-    color:#0065FC;
+    color: var(--mainColor);
 }
 
 .decorationnone{
